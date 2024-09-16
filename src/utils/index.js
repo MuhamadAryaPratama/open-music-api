@@ -11,7 +11,7 @@ const mapDbSongsToModel = ({
   genre,
   performer,
   duration,
-  albumId,
+  album_id,
 }) => ({
   id,
   title,
@@ -19,7 +19,7 @@ const mapDbSongsToModel = ({
   genre,
   performer,
   duration: duration || null,
-  albumId: albumId || null,
+  albumId: album_id || null,
 });
 
 module.exports = { mapDbAlbumsToModel, mapDbSongsToModel };
